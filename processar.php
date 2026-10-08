@@ -12,8 +12,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $peso = $_GET['peso'];
 }
 
-echo "O código recebido é: " . $codigo;
-echo "<br>";
 echo "Voce é o: " . $destinatario;
 echo "<br>";
 echo "A cidade é: " . $cidade;
